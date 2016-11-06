@@ -1,0 +1,37 @@
+body{
+	font-family:'Raleway', sans-serif;
+}
+
+.header{
+	width: 100%;
+	height: 50px;
+	background-color: #ffb761;
+	/*display: flex;*/
+}
+
+
+.header-left{
+	display: inline-flex;
+	border: 1px solid skyblue;
+
+}
+
+.header-left li{
+	list-style: none;
+	font-size: 1.4em;
+	color: white;
+	font-weight: 900;
+}
+
+.header-right{
+	display: inline-flex;
+	border: 1px solid green;
+}
+
+.header-right li{
+	list-style: none;
+	font-size: 1.4em;
+	color: white;
+	font-weight: 900;
+
+}
