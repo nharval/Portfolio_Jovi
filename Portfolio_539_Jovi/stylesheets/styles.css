@@ -60,26 +60,43 @@ body{
 	width: 100%;
 	height:500px;
 	min-height: 50px;
-
-	background-color: yellow;
 	background-image: url('../images/friends.jpg');
-	
+}
+
+.home-text{
+	margin: 0 auto;
+	text-align: center;
+	padding: 100px;
+	line-height: 2em;
 }
 
 footer{
-	height: 200px;
 	background-color: #494948;
+	text-align: center;
+	padding: 100px;
+	color: white;
 }
 
 footer span{
 	color: white;
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-        background-color: lightblue;
+.active{
+	border-bottom: 2px solid;
+}
 
-    }
+.page-content{
+	text-align: center;
+	padding:200px;
+}
+
+.page-content h2{
+	margin-top: 50px;
+/*	border:4px solid black;
+*/}
+
+@media only screen and (max-width: 600px) {
+ 
 
     .brand {
     	display: none;
@@ -99,6 +116,10 @@ footer span{
 
     .header-right li a{
     	font-size: .9em;
+    }
+
+    .home-text{
+    	padding: 50px 20px;
     }
 }
 
